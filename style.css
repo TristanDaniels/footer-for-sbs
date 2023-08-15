@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Styling for footer (Tristan)*/
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #61223b !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-links {
+  list-style: none;
+  padding-left: 0 !important;
+}
+.footer-col {
+  width: 20%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 300;
+  color: #c0c0c0 !important;
+  display: block;
+  transition: all 0.5s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff !important;
+  padding-left: 5px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 27px;
+  width: 27px;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 50%;
+  color: white !important;
+  transition: all 0.3s ease;
+}
+.footer-col .social-links a:hover {
+  color: #61223b !important;
+  background-color: white !important;
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white !important;
+  padding-top: 20px;
+}
+#page-wrapper #page-footer {
+  background-color: #61223b !important;
+  background-image: url(https://i.imgur.com/sUk9R6H.jpg);
+}
+/* Makes footer responsive */
+@media (max-width: 767px) {
+  .footer-col {
+    width: 40%;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
